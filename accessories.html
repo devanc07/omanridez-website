@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Accessories - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <h1 class="title">Accessories</h1>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+
+        <!-- HELMET -->
+        <div class="product-card">
+            <img src="images/helmet_product.png" alt="Helmet">
+            <h3>Helmet</h3>
+            <p class="price">OMR 45</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Helmet',45)">Add to Cart</button>
+        </div>
+
+        <!-- JACKET -->
+        <div class="product-card">
+            <img src="images/jacket_product.png" alt="Jacket">
+            <h3>Jacket</h3>
+            <p class="price">OMR 100</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Jacket',100)">Add to Cart</button>
+        </div>
+
+        <!-- GLOVES -->
+        <div class="product-card">
+            <img src="images/gloves_product.png" alt="Gloves">
+            <h3>Gloves</h3>
+            <p class="price">OMR 30</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Gloves',30)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- SIGNUP FORM -->
+    <div class="form-box">
+        <h2>Create Account</h2>
+
+        <input type="text" id="name" placeholder="Enter Username" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <input type="text" id="phone" placeholder="Enter Phone Number">
+
+        <button onclick="registerUser()">Sign Up</button>
+
+        <p>
+            Already have an account? 
+            <a href="login.html" style="color:black; font-weight:bold;">Login</a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

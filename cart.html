@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cart - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- CART CONTENT -->
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+
+        <!-- ITEMS -->
+        <div id="cart-items"></div>
+
+        <!-- TOTAL -->
+        <h2 id="total-price"></h2>
+
+        <!-- BUTTON -->
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

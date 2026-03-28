@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bikes - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <h1 class="title">All Bikes</h1>
+
+    <!-- SPORT BIKES -->
+    <section class="bike-section">
+        <h2>Sport Bikes</h2>
+
+        <div class="products">
+
+            <div class="product-card">
+                <img src="images/sport_bike_1.avif">
+                <h3>KTM RC 390</h3>
+                <p class="features">
+                    373cc engine <br> 6-speed gearbox <br> ABS braking <br> Lightweight design <br> TFT display
+                </p>
+                <p class="price">OMR 2300</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('KTM RC 390',2300)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/sport_bike_2.avif">
+                <h3>Yamaha YZF-R7</h3>
+                <p class="features">
+                    689cc engine <br> Supersport design <br> Slipper clutch <br> Dual disc brakes <br> Adjustable suspension
+                </p>
+                <p class="price">OMR 3500</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('Yamaha YZF-R7',3500)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CRUISER BIKES -->
+    <section class="bike-section">
+        <h2>Cruiser Bikes</h2>
+
+        <div class="products">
+
+            <div class="product-card">
+                <img src="images/cruiser_bike_1.avif">
+                <h3>Honda Rebel 500</h3>
+                <p class="features">
+                    471cc engine <br> Comfortable seating <br> ABS braking <br> 6-speed gearbox <br> Modern cruiser design
+                </p>
+                <p class="price">OMR 2700</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('Honda Rebel 500',2700)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/cruiser_bike_2.jpg">
+                <h3>Yamaha Bolt (R-Spec)</h3>
+                <p class="features">
+                    942cc engine <br> High torque <br> Bobber styling <br> Belt drive <br> Comfortable ride
+                </p>
+                <p class="price">OMR 3200</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('Yamaha Bolt',3200)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OFFROAD BIKES -->
+    <section class="bike-section">
+        <h2>Offroad Bikes</h2>
+
+        <div class="products">
+
+            <div class="product-card">
+                <img src="images/offroad_bike_1.jpg">
+                <h3>KTM 250 EXC-F</h3>
+                <p class="features">
+                    249cc engine <br> Lightweight <br> High ground clearance <br> 6-speed gearbox <br> Advanced suspension
+                </p>
+                <p class="price">OMR 4100</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('KTM 250 EXC-F',4100)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/offroad_bike_2.jpg">
+                <h3>Yamaha WR250F</h3>
+                <p class="features">
+                    250cc engine <br> Smooth performance <br> Adjustable suspension <br> Lightweight <br> Enduro design
+                </p>
+                <p class="price">OMR 3500</p>
+                <p class="stock">In Stock</p>
+                <button onclick="addToCart('Yamaha WR250F',3500)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

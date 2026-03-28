@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cruiser Bikes - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- TITLE -->
+    <h1 class="page-title">Cruiser Bikes</h1>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+
+        <!-- BIKE 1 -->
+        <div class="product-card">
+            <img src="images/cruiser_bike_1.avif" alt="Honda Rebel 500">
+            <h3>Honda Rebel 500</h3>
+            <p>
+                471cc parallel twin engine<br>
+                Comfortable riding position<br>
+                ABS braking system<br>
+                6-speed gearbox<br>
+                Modern cruiser design
+            </p>
+            <p class="price">OMR 2700</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Honda Rebel 500',2700)">Add to Cart</button>
+        </div>
+
+        <!-- BIKE 2 -->
+        <div class="product-card">
+            <img src="images/cruiser_bike_2.jpg" alt="Yamaha Bolt">
+            <h3>Yamaha Bolt (R-Spec)</h3>
+            <p>
+                942cc V-twin engine<br>
+                High torque performance<br>
+                Classic bobber styling<br>
+                Belt drive system<br>
+                Smooth riding experience
+            </p>
+            <p class="price">OMR 3200</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Yamaha Bolt',3200)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

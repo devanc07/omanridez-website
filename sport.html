@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sport Bikes - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- TITLE -->
+    <h1 class="page-title">Sport Bikes</h1>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+
+        <div class="product-card">
+            <img src="images/sport_bike_1.avif" alt="KTM RC 390">
+            <h3>KTM RC 390</h3>
+            <p>
+                373cc powerful engine<br>
+                6-speed gearbox<br>
+                ABS braking system<br>
+                Lightweight racing design<br>
+                TFT display
+            </p>
+            <p class="price">OMR 2300</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('KTM RC 390',2300)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/sport_bike_2.avif" alt="Yamaha YZF-R7">
+            <h3>Yamaha YZF-R7</h3>
+            <p>
+                689cc twin-cylinder engine<br>
+                Supersport design<br>
+                Slipper clutch<br>
+                Dual disc brakes<br>
+                Adjustable suspension
+            </p>
+            <p class="price">OMR 3500</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Yamaha YZF-R7',3500)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

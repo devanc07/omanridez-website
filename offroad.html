@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Offroad Bikes - OmanRidez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>OmanRidez</h2>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html" id="cart-count">Cart (0)</a>
+        </div>
+
+        <div class="auth-links"></div>
+    </nav>
+
+    <!-- TITLE -->
+    <h1 class="page-title">Offroad Bikes</h1>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+
+        <div class="product-card">
+            <img src="images/offroad_bike_1.jpg" alt="KTM 250 EXC-F">
+            <h3>KTM 250 EXC-F</h3>
+            <p>
+                249cc 4-stroke engine<br>
+                Lightweight body for control<br>
+                High ground clearance<br>
+                6-speed gearbox<br>
+                Advanced suspension
+            </p>
+            <p class="price">OMR 4100</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('KTM 250 EXC-F',4100)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/offroad_bike_2.jpg" alt="Yamaha WR250F">
+            <h3>Yamaha WR250F</h3>
+            <p>
+                250cc liquid-cooled engine<br>
+                Smooth & reliable performance<br>
+                Adjustable suspension<br>
+                Lightweight design<br>
+                Strong high-speed performance
+            </p>
+            <p class="price">OMR 3500</p>
+            <p class="stock">In Stock</p>
+            <button onclick="addToCart('Yamaha WR250F',3500)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
